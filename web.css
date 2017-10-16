@@ -1,0 +1,108 @@
+body {
+  background-image: url(imagenes/fondo.jpg);
+  background-size: 100%;
+  background-repeat:  no-repeat;
+}
+
+button{
+margin: 0;
+height: 20%;
+background-color: rgb(203, 226, 199);
+font-family: arial;
+font-size: 20px;
+font-weight: bold;
+}
+
+button a{
+  text-decoration: none;
+    }
+
+button:hover{
+  background-color: white;
+}
+
+h1 {
+  font-family: arial;
+  color: rgb(19, 19, 224);
+  margin: 0;
+  font-size:45px;
+  padding-top: 30px;
+}
+
+h2 {
+    color: rgb(19, 19, 224);;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+
+  .imagen{
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+  }
+
+  .foto{
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .descripcion {
+    height: auto;
+    margin: 10px;
+    margin-left: 350px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: x-large;
+    color: rgb(19, 19, 224);
+  }
+
+  .recuadro {
+    background-color:rgba(203, 226, 199, 0.55);
+    padding: 10px 25px;
+    border-radius: 5%;
+    box-shadow: 3px 6px 14px 8px rgba(40, 90, 130, 0.77);
+  }
+
+  .botonera {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .direcciones img {
+      width: 30%;
+      padding: 0 3px;
+  }
+
+  .bloque {
+      margin-top: -30px;
+  }
+
+
+  @media screen and (max-width: 480px){
+
+    h1{
+      font-size: 30px;
+      padding-top: 0px;
+    }
+
+    .imagen{
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+    .botonera{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .descripcion {
+      height: none;
+      margin: 0px;
+      margin-left: 0px;
+      font-family: sans-serif;
+      text-align: none;
+      font-size: x-large;
+      color: rgb(19, 19, 224);
+    }
+
+      }
