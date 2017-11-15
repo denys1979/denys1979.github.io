@@ -39,6 +39,7 @@ h2 {
     width: 300px;
     float: left;
     margin-top: 40px;
+    margin-left: 22px;
   }
 
   .foto{
@@ -69,7 +70,7 @@ h2 {
   }
 
   .direcciones img {
-      width: 30%;
+      width: 60px;
       padding: 0 3px;
   }
 
